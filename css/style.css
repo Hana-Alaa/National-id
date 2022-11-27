@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "Baloo";
+    src: url(../fonts/BalooBhaijaan2-Bold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Baloo";
+    src: url(../fonts/BalooBhaijaan2-SemiBold.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Baloo";
+    src: url(../fonts/BalooBhaijaan2-Medium.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Baloo";
+    src: url(../fonts/BalooBhaijaan2-Regular.ttf);
+    font-weight: 100;
+}
+body
+{
+    background-color: #E2EDF8;
+    margin: 0;
+    direction: rtl;
+}
+.container
+{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+    background-color:#fff;
+    border-radius: 30px;
+    height: 650px;
+    position: relative;
+}
+.container img
+{
+    margin-top: 37px;
+    margin-right: 1384px;
+    width: 43px;
+}
+.container h1
+{
+    text-align: center;
+    color: #5982AB;
+    margin-top: 16px;
+    font-family: "Baloo";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+.container .get-info p
+{
+    text-align: center;
+    color: #858585;
+    font-family: "Baloo";
+    font-weight: 100;
+}
+.container form input
+{
+    margin-right: 344px;
+    width: 724px;
+    height: 55px;
+    border-radius: 17px;
+    background-color:#F3F3F3;
+    border: none;
+    position: relative;
+    font-family: "Baloo";
+    font-weight: 100;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-top:23px;
+}
+.container form input::placeholder
+{
+    color:#B8B8B8;
+}
+.container form input:focus
+{
+    color:#454545;
+    outline:none;
+}
+.container form img 
+{
+    position: absolute;
+    top: 244px;
+    left: 1089px;
+    width: 21px;
+}
+.container form button 
+{
+    background-color: #5982AB;
+    border-radius: 25px;
+    position: absolute;
+    left: 357px;
+    top: 270px;
+    width: 109px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    font-family: "Baloo";
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.container .info{
+    margin-right: 130px; 
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    display:none;
+}
+.info>* {
+    flex: -1 1 160px;
+}
+.container .info .we-know 
+{
+    background: linear-gradient(281.72deg, #3266E3 4.47%, #54B5A6 88.87%);
+    border-radius: 20px;
+    width: 116px;
+    height: 38px;
+    padding-left: 53px;
+    padding-top: 43px;
+    padding-right: 58px;
+    padding-bottom: 99px;
+    font-size: 23px;
+    font-family: "Baloo";
+    font-weight: 400;
+    line-height: 37px;
+    text-align: center;
+    color: #fff;
+    margin-left:70px;
+}
+.container .info .gender,.container .info .location,.container .info .birth
+{
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    width: 243px;
+    height: 186px;
+    position: relative;
+    margin-left:70px;
+}
+.info .gender img 
+{
+    position: absolute;
+    top: -25px;
+    left: 194px;
+    width: 37px;
+}
+.info .head
+{
+    padding-right: 64px;
+    padding-top: 6px;
+    font-family: "Baloo";
+    font-weight: 300;
+    color: #797979;
+}
+.info .gender hr , .info .location hr,.info .birth hr
+{
+    background: rgba(0, 0, 0, 0.13);
+    border-radius: 2px;
+    width: 213px;
+}
+.info .location img 
+{
+    position: absolute;
+    top: -25px;
+    left: 189px;
+    width: 37px;
+}
+.info .birth img 
+{
+    position: absolute;
+    top: -25px;
+    left: 189px;
+    width: 37px;
+}
+.information
+{
+    font-family: "Baloo";
+    font-weight: 400;
+    color: #494949;
+    text-align: center;
+    padding-top: 22px;
+}
+.container footer
+{
+    text-align: center;
+    background-color: rgb(211, 226, 242);
+    border-radius: 0px 0px 30px 30px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    color: #5982AB;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    top: 597px;
+    width: 100%;
+    font-family: "Baloo";
+    font-weight: 200;
+}
+.container footer a
+{
+    text-decoration: none;
+    color: #406385;
+}
+
+
